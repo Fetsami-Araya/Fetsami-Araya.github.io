@@ -60,3 +60,9 @@ header{
     color:#cccccc;
     font-weight:bold;
   }
+
+  /* Main-col */
+article#main-col{
+  float:right;
+  width:65%;
+}
