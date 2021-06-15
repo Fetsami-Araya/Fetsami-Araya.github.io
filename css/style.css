@@ -66,3 +66,10 @@ article#main-col{
   float:right;
   width:65%;
 }
+
+img {
+    float: left;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+    margin: 5px 20px 20px 0px;
+}
