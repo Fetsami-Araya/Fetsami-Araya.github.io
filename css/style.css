@@ -68,8 +68,15 @@ article#main-col{
 }
 
 img {
-    float: left;
+    position: relative;
+    right: 20px;
 	border: 1px solid #ddd;
 	border-radius: 4px;
     margin: 20px 20px 20px 20px;
+    display: block;
+}
+
+#about-me-par {
+  position: relative;
+  left: 25px
 }
