@@ -1,8 +1,13 @@
 body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
-    padding:0;
+    padding: 0px;
     margin:0;
     background-color:#f4f4f4;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-family: Arial;
   }
   
   /* Global */
@@ -10,6 +15,7 @@ body{
     width:80%;
     margin:auto;
     overflow:hidden;
+    padding-bottom: 30px;
   }
   
   ul{
@@ -61,22 +67,35 @@ header{
     font-weight:bold;
   }
 
-  /* Main-col */
-article#main-col{
-  float:right;
-  width:65%;
-}
+  #display-pic {
+    width: 200px;
+    height: 200px;
+  }
 
-img {
-    position: relative;
-    right: 20px;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-    margin: 20px 20px 20px 20px;
-    display: block;
-}
 
-#about-me-par {
-  position: relative;
-  left: 25px
-}
+  .project-instance {
+    color:#ffffff;
+    background-color: #35424a;
+    border-color: #35424a;
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+  .project-pic {
+    height: 100px;
+    width: 100px;
+  }
+
+  #projects-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+  }
