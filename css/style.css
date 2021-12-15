@@ -67,6 +67,7 @@ header{
     font-weight:bold;
   }
 
+ 
   #display-pic {
     border-color: #35424a;
     border-style: solid;
@@ -76,11 +77,14 @@ header{
     float: left;
   }
 
-  #main-par p {
-    position: relative;
-    left: 30px;
-  }
+ #about-me-pars {
+   position: relative;
+   left: 15px;
+ }
 
+ #about-me-pars p {
+   width: 99%;
+}
 
   .project-instance {
     color:#ffffff;
