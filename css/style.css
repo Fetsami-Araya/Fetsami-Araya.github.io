@@ -91,9 +91,10 @@ header{
     background-color: #35424a;
     border-color: #35424a;
     border-style: solid;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 21%;
     padding: 20px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,15 +103,27 @@ header{
 
  
   .project-pic {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
 
   #projects-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #projects-list a {
+    color:#ffffff;
+    text-decoration:none;
+    font-size:16px;
+  }
+
+  #projects-list a:hover{
+    color:#cccccc;
+    font-weight:bold;
   }
 
   #contact-info-list {
@@ -123,6 +136,7 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
   }
 
  #email-pic{
