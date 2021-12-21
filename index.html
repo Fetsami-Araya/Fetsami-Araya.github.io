@@ -13,9 +13,9 @@
         <nav>
           <ul>
             <li><a href="index.html">About Me</a></li>
-            <li><a href="./content/Fetsami_Araya_CV.pdf">CV</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="./content/Fetsami_Araya_CV.pdf" target="_blank">CV</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         </div>
@@ -23,12 +23,91 @@
     <section id="main">
       <div class="container">
         <article id="main-par">
-          <h1 class="page-title">About Me</h1>
-          <img src="content/Fetsami Araya Display Picture.JPG" alt="My Display Picture" style="float:left;width:300px;height:300px;">
-          <p id="about-me-par">
-          More info will come about me here
-          </p>
+          <h1>About Me</h1>
+          <img src="content/Fetsami Araya Display Picture.JPG" alt="My Display Picture" id="display-pic">
+          <div id="about-me-pars">
+            <p>
+              I've spent the past few years studying economics and data science and from the very beginning, I found both subjects fascinating.  
+              In my undergraduate degree at the University of Calgary, I majored in Economics and gravitated towards econometrics (the use of statistics to answer economic questions). 
+              The more I studied econometrics, the more I realized that if I wanted to continue doing this kind of work, I would need a solid understanding of programming so I could gather data and implement complex statistical models. 
+              So, I added a minor in Data Science, learned Python, R, and SQL, and also decided to pursue a master's degree in Economics at the University of Toronto.
+            </p>
+              
+            <p>
+              As a TA at the University of Toronto, I helped students in a course meant to teach data science to economics majors, and as a student, 
+              I enrolled in courses (e.g. econometrics, machine learning applications in economics) which will allowed me to continue to practice programming and learn more about practical applications of data science.
+              In my internships, I've been able to take advantage of my experience in data science and economics to help various organizations ranging from startups to government agencies. 
+            </p>
+            <p>
+              During my most recent internship at the Canada Energy Regulator, I used Python to automate data cleaning tasks and to implement forecasting models for Canadian electricity exports. 
+              Similarly,  as an RA at the University of Calgary, I used Python and its various data science libraries along with High-Performance Computing resources to clean and process large amounts of patent data, 
+              a process that would have been impossible without these tools.
+            </p>
+            <p>
+              After finishing my MA in April 2021, I have just started a position as a Recruit Analyst at Statistics Canada as part of their Analyst Rotational Program.  Over the course of the next two years,  
+              I'll be working on classifying, computing, and improving the Canadian System of National Accounts.
+            </p>
+          </section>
         </article>
+      </div>
+      <div id="projects" class="container" id="projects-container">
+        <h1> Projects</h1>
+        <section id="projects-list">
+          <div class="project-instance">
+            <h2> Nowcasting Canadian GDP </h2>
+            <img src="content/GitHub-Mark-Light-64px.png"  class="project-pic">
+            <p>
+              This project compared the performance of various machine learning models to nowcast quarterly Canadian GDP. This project was completed for the course ECO 3400 - Machine Learning in Economics at the University of Toronto.
+            </p>
+            <p>
+                Language(s): Python, Jupyter Notebook
+            </p>
+            <p>
+              <a href="https://github.com/Fetsami-Araya/ECO3400-Project" > GitHub Repository </a>
+            </p>
+          </div>
+
+          <div class="project-instance">
+            <h2> Asteroids </h2>
+            <img src="content/GitHub-Mark-Light-64px.png" class="project-pic">
+            <p>
+              This project is a replication of the popular retro arcade game Asteroids. This game was developed in tandem with a team of other developers as part of CPSC 219 - Computer Science for Multidisciplinary Studies II at the University of Calgary
+            </p>
+            <p>
+                Language(s): Java
+            </p>
+            <p>
+              <a href="https://github.com/Fetsami-Araya/ProjectCPSC219" target="_blank" > GitHub Repository </a>
+            </p>
+          </div>
+
+          <div class="project-instance">
+            <h2> Portfolio Website </h2>
+            <img src="content/GitHub-Mark-Light-64px.png" class="project-pic">
+            <p>
+              I made the portfolio website that you're on right now. This is a new and (much) improved version of the portfolio page I made when I completed freeCodeCamp's 
+              <a href="https://www.freecodecamp.org/fccafe71af1-ae8b-435d-ade1-670ce28acb1d"> Responsive Web Design Certification </a>. Skibbidy doo wop wop diddly doo dat day.
+            </p>
+            <p>
+              Language(s): HTML, CSS
+          </p>
+            <p>
+             <a href="https://github.com/Fetsami-Araya/Fetsami-Araya.github.io" > GitHub Repository </a>
+            </p>
+          </div>
+          
+        </section>
+  
+      </div>
+      <div id="contact" class="container">
+        <h1> Contact</h1>
+        <ul id='contact-info-list'>
+          <li>  <a href = "https://www.linkedin.com/in/fetsami-araya-467a49178/" target = "_blank">  <img src="content/in-blue.png" class="contact-pic"> </a> </li>
+          <li> <a href = "mailto: fetsamiaraya@outlook.com?subject=Hey Fetsami!"> <img src="content/email-logo-png-1111.png" class="contact-pic" id="email-pic"> </a> </li>
+          <li> <a href = "https://github.com/Fetsami-Araya" target = "_blank">  <img src="content/GitHub-Mark-120px-plus.png" class="contact-pic"> </a> </li>
+
+        </ul>
+  
       </div>
     </section>
   </body>
