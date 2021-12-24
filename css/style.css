@@ -204,6 +204,11 @@ header{
     flex-wrap: wrap;
   }
 
+  #email-pic{
+    height: 150px;
+    width: 150px;
+  }
+
   @media only screen and (max-width: 767.98px){
     #contact-info-list {
       list-style-type: none;
@@ -225,10 +230,9 @@ header{
     #contact-info-list li {
       padding: 30px;
     }
+
+    #email-pic{
+      height: 100px;
+      width: 100px;
+    }
 }
-
-
- #email-pic{
-    height: 150px;
-    width: 150px;
-  }
